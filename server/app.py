@@ -37,6 +37,8 @@ def games():
         # games.append(game_dict)
 
     response = make_response(
+        games,
+        200
         # jsonify(games),
         # 200
         # games,
